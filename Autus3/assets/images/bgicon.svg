@@ -1,0 +1,15 @@
+<svg id="bgicon-2" data-name="bgicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113.185" height="116.223" viewBox="0 0 113.185 116.223">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="bgicon" d="M90.978,15.348c-27-26.671-50-14.541-54,5.778S-4.2,45.5.392,69.5s54.586,9.75,54.586,31.5,57.806,21,57.806-7.5S117.978,42.018,90.978,15.348Z" fill="rgba(255,255,255,0.2)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+    <path id="bgicon-3" data-name="bgicon" d="M90.978,15.348c-27-26.671-50-14.541-54,5.778S-4.2,45.5.392,69.5s54.586,9.75,54.586,31.5,57.806,21,57.806-7.5S117.978,42.018,90.978,15.348Z" fill="rgba(255,255,255,0.2)"/>
+    <g id="Mask_Group_3" data-name="Mask Group 3" clip-path="url(#clip-path)">
+      <g id="Color_Blue" data-name="Color/Blue" opacity="0.2">
+        <rect id="Rectangle" width="114" height="117" fill="#459eff"/>
+      </g>
+    </g>
+  </g>
+</svg>

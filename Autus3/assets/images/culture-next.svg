@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.692" height="11.927" viewBox="0 0 14.692 11.927">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="14.692" height="11.927" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <path id="Color_Overlay" data-name="Color Overlay" d="M8.664,11.86a.232.232,0,0,1,0-.323l5.261-5.345H.225a.229.229,0,0,1,0-.457h13.7L8.664.39a.232.232,0,0,1,0-.323.222.222,0,0,1,.318,0L14.626,5.8a.22.22,0,0,1,.043.061.233.233,0,0,1-.046.267L8.982,11.86a.223.223,0,0,1-.318,0Z" fill="#171721"/>
+  </g>
+</svg>
