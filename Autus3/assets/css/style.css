@@ -3033,7 +3033,7 @@ Helping business section styling start here
 }
 
 @media(min-width: 1600px) {
-    .helping-business .container-fluid {
+    .helping-business .container-fluid , .why-retargeting  .container-fluid , .how-effective .container-fluid{
         padding-left: 150px;
         padding-right: 150px;
     }
@@ -8362,4 +8362,143 @@ margin-bottom: 50px;
     text-align: left;
     color: #fff;
 
+}
+
+
+/*retargetting page style start here*/
+.how-it-work-bs {
+    display: flex;
+    width: 100%;
+    background: #e2e7eb;
+    padding-top:89px ;
+    padding-bottom: 120px;
+}
+.how-it-work-bs .section-title h3 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 46px;
+    text-align: center;
+    color: #085155;
+
+}
+.how-it-work-bs .section-title  {
+    margin-bottom: 55px;
+}
+.how-content-cont h4 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: left;
+    color: #085155;
+    margin-bottom:35px;
+}
+.how-content-cont  p {
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 45px;
+    text-align: left;
+    color: #19191b;
+    margin-bottom: 70px;
+}
+.how-content-cont h4.green-line-txt {
+    color: #5fb132;
+}
+
+.how-effective {
+    background: #047e8a;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.how-effective .section-title {
+    margin-bottom: 90px;
+}
+.how-effective .section-title  h3 {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 46px;
+    color: #fff;
+}
+.how-effective .section-title p{
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+}
+
+.ref-listing ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.ref-listing li {
+    display: flex;
+    width: 100%;
+    margin-bottom: 46px;
+    align-items: center;
+}
+.ref-listing li:last-child{
+    margin-bottom: 0;
+}
+.ref-listing li .ref-icon {
+    width: 117px;
+    margin-right: 32px;
+
+}
+.ref-listing li .ref-description {
+    width: calc(100% - 148px);
+}
+.ref-listing li .ref-description h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.ref-listing li .ref-description p{
+    font-weight: normal;
+font-size: 21px;
+line-height: 30px;
+text-align: left;
+color: #fff;
+}
+
+.why-retargeting {
+    background:#e4eaf1;
+    padding: 80px 0;
+
+}
+
+
+.why-retargeting .section-title {
+    margin-bottom: 100px;
+}
+.why-retargeting .section-title p {
+    font-weight: 500;
+font-size: 24px;
+line-height: 45px;
+text-align: center;
+color: #19191b;
+}
+.check-marker {
+    margin: 0;
+    padding:0 ;
+    list-style: none;
+}
+.check-marker li{
+
+    background: url(../images/check-small-marker.png) no-repeat top left;
+    padding-left: 70px;
+    margin-bottom: 32px;
+}
+.check-marker li h4 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: left;
+    color: #595f6f;
+    margin-bottom:15px;
 }
