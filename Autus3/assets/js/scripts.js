@@ -9,6 +9,7 @@ $(document).ready(function(){
 	quoteSlider();
 	specialSlider();
 	qtestiSlider();
+	adsSlider();
 });
 $(document).ready(function() {
 	$(".sidebar-widget h3").on("click" , function(){
@@ -214,7 +215,36 @@ function testimonialSlider(){
       }
 	 });
 }
+function adsSlider(){
+	var kaSwiper1 = new Swiper ('.ads-slider .swiper-container', {
+	  pagination: '.swiper-pagination',
+	  loop:true,
+		  paginationClickable: true,
+		  centeredSlides: true,
+		  slidesPerView: 1.7,
+		  spaceBetween : 50,
+		  autoHeight: true,
+		  breakpoints :{
+		    768:{
+		      spaceBetweenSlides: 10,
+		      slidesPerView: 1
+		    }
+		  },
+		   pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+		  onSlideChangeEnd:function(e){
+		    kaSwiper1.update(true);
+		  }
+		 
+	});
 
+}
 function specialSlider(){
 	var kaSwiper1 = new Swiper ('#ka-swiper1', {
 	  pagination: '.swiper-pagination',

@@ -1412,10 +1412,67 @@
 		line-height: 1.3;
 		margin-bottom: 10px;
 	}
-
+    .how-it-work-bs .section-title h3 , .how-effective .section-title h3{
+        font-size: 24px;
+    }
+    .how-it-work-bs , .how-effective{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .how-it-work-bs .section-title {
+        margin-bottom: 20px;
+    }
+    .how-content-cont h4 , .how-effective .section-title p{
+        font-size: 20px;
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+    .how-content-cont p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .overContent h3 {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .activeContent {
+        height: 500px;
+    }
+    .activeContent  img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .overContent p {
+        font-size: 14px;
+        line-height: 1.3;
+    }
+    .overContent {
+        padding: 60px;
+    }
+    .ads-section .swiper-button-prev, .ads-section .swiper-container-rtl .swiper-button-next {
+        left: 10px;
+    }
+    .ads-section .swiper-button-next, .ads-section .swiper-container-rtl .swiper-button-prev {
+        right: 10px;
+    }
+    .pattern-card {
+        padding: 50px 20px;
+    }
+    .pattern-card-title h3 {
+        font-size: 22px;
+    }
 }
 
 @media(max-width: 767px){
+    .ref-listing li .ref-description {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .ref-listing li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 	.helping-business .col-lg-6 {
 		flex-direction: column;
 		justify-content: flex-start;
