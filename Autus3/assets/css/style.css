@@ -3341,6 +3341,7 @@ growth platform page style start
 
 .cta-footer {
     background: url(../images/cta-bg.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 
@@ -8620,4 +8621,63 @@ color: #595f6f;
 }
 .ads-section {
     background: rgba(165, 183, 205, 0.5);
+}
+
+.why-autus-linkedin {
+    padding: 100px 0;
+    background: #047e8a;
+}
+
+.why-content-linkedin h4{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 35px;
+}
+.why-content-linkedin  p{
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 40px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+
+.cvg.grey-bg  {
+    background: rgba(165, 183, 205, 0.15);    
+}
+.wls-content h4 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: left;
+    color: #085155;
+    margin-bottom: 35px;
+}
+.wls-content  p{
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 40px;
+    text-align: left;
+    color: #19191b;
+    margin-bottom: 35px;
+}
+
+.wls-content ul {
+    margin: 0 ;
+    padding: 0;
+    list-style: none;  
+}
+.wls-content ul li {
+    margin-bottom: 40px;
+    padding-left: 57px;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 40px;
+    text-align: left;
+    color: #19191b;
+    background: url(../images/Group-240.png) no-repeat left 20px ;
 }
