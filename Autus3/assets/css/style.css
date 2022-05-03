@@ -8681,3 +8681,8 @@ color: #595f6f;
     color: #19191b;
     background: url(../images/Group-240.png) no-repeat left 20px ;
 }
+
+.digital-marketing-plan .package-box ul li.del {
+    background-image: url(../images/group-unchek.png);
+    background-size: 26px;
+}
