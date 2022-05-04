@@ -8686,3 +8686,34 @@ color: #595f6f;
     background-image: url(../images/group-unchek.png);
     background-size: 26px;
 }
+
+.jambo-title-red.msl h3 {
+    color: #501964;
+}
+
+.msl .about-content-area h5 {
+    color: #a7c937;
+}
+.msl .about-content-area h3  , .msl .bass-content h4 {
+    color: #501964;
+
+}
+.msl.feature-popups .modal-dialog .modal-body {
+
+    background: #501964;
+
+}
+
+.msl.mst-box h6 {
+    font-size: 20px;
+}
+.fullup  {
+    padding: 100px 0 !important
+}
+.fullup:before {
+    height: 100% !important;
+    top: 0 !important;
+}
+.video-testimonial-ashd.msl {
+    background-image: url(../images/msl-video-bg.png);
+}
