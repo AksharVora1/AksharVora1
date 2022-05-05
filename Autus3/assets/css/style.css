@@ -8717,3 +8717,26 @@ color: #595f6f;
 .video-testimonial-ashd.msl {
     background-image: url(../images/msl-video-bg.png);
 }
+
+.how-content-cont ul {
+    margin: 0;
+    padding: 0;
+}
+.how-content-cont ul  li {
+    padding-left: 30px;
+    background: url(../images/emPath.png) no-repeat left 10px;  
+    font-weight: normal;
+    font-size: 21px;
+    text-align: left;
+    color: #19191b;
+    margin-bottom: 12px;
+
+}
+
+.cmo-content > p {
+font-weight: 500;
+font-size: 24px;
+line-height: 45px;
+text-align: center;
+color: #085155;
+}
