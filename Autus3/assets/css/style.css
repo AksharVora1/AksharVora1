@@ -878,6 +878,7 @@ How we work section styling start here
     font-size: 18px;
     font-weight: 500;
     margin: 0 0 30px;
+    line-height: 1.8;
 }
 
 .how-detail-area a {
@@ -1014,7 +1015,7 @@ How we work section styling end here
 
 .help-desc-content .sub-title {
     line-height: 35px;
-    width: 65%;
+    width: 100%;
     text-align: left;
     font-family: 'Maven Pro';
     font-style: normal;
@@ -1111,7 +1112,11 @@ How we work section styling end here
     color: rgba(8, 81, 85, 1);
     margin-bottom: 70px;
 }
+.clients-title-area p {
 
+    font-size: 18px;
+    color: rgba(112, 112, 112, 1);
+}
 .client-slider-inner {
     background: #A5B7CD;
     padding: 50px;
@@ -1193,8 +1198,9 @@ How we work section styling end here
 }
 
 .client-post-content {
-    padding-top: 82px;
+    padding-top: 30px;
 }
+
 
 .client-post-content .btn {
     margin-top: 50px;
@@ -1686,11 +1692,18 @@ footer.footer {
     background: rgba(3, 3, 3, .6);
 }
 
-h1.page-title {
+h1.page-title , .white-text {
     color: #fff;
 }
 
-
+.white-text {
+    font-family: "Maven Pro";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+}
 /*------------------------------------
  Inner hero section styling end here
 ------------------------------------*/

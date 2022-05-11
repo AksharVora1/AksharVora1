@@ -1063,6 +1063,12 @@
 }
 
 @media(max-width: 980px){
+    .arrow-area .swiper-button-next  , .arrow-area .swiper-button-prev {
+        display: none;
+    }
+    .post-banner  {
+        padding-top: 100px !important;
+    }
 	.resource-box {
 		margin-top: 15px;
 		margin-bottom: 15px;
