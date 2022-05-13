@@ -4491,8 +4491,8 @@ growth platform page style start
 
 .platform-list {
     background: #ecf6f8;
-    padding-top: 143px;
-    padding-bottom: 143px;
+    padding-top: 200px;
+    padding-bottom: 120px;
     position: relative;
 }
 
@@ -4574,6 +4574,7 @@ growth platform page style start
         top: 0;
         left: 0;
         background: url(../images/top-services-object.png) no-repeat top left;
+        background-size: 210px;
     }
     .platform-list:after {
         content: "";
@@ -4583,6 +4584,7 @@ growth platform page style start
         bottom: 0;
         right: 0;
         background: url(../images/bottom-services-object.png) no-repeat bottom right;
+        background-size: 210px;
     }
 }
 
@@ -4624,8 +4626,9 @@ growth platform page style start
 
 .services-packages {
     padding-top: 155px;
-    padding-bottom: 155px;
+    padding-bottom: 75px;
     position: relative;
+    background-color: #f5f8fb;
 }
 
 .services-packages .container {
@@ -4635,7 +4638,7 @@ growth platform page style start
 
 .services-packages .section-title {
     text-align: center;
-    margin-bottom: 108px;
+    margin-bottom: 74px;
 }
 
 .services-packages .section-title h3 {
@@ -4652,14 +4655,23 @@ growth platform page style start
     line-height: 30px;
     text-align: center;
     color: #696871;
+    margin-bottom: 20px;
+}
+
+.services-packages .section-title h4 {
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #085155;
 }
 
 .services-packages:after {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: rgba(95, 177, 50, 0.2);
-    opacity: 0.45;
+    /*background: rgba(95, 177, 50, 0.2);*/
+    background: #f7fbf2;
+    /*opacity: 0.45;*/
     content: "";
     top: 0;
     left: 0;
@@ -4815,7 +4827,7 @@ ul.checked-list li {
 .benifits-section {
     background: url(../images/shape-bg.png) no-repeat center center;
     background-size: cover;
-    padding: 104px 0;
+    padding: 118px 0 114px;
 }
 
 .benifits-section .section-title {
@@ -5279,7 +5291,7 @@ ul.checked-list li {
 
 .package-short-description {
     background: #ecf6f8;
-    padding: 120px;
+    padding: 0px 120px 0px;
 }
 
 .package-short-description h4 {
@@ -6108,7 +6120,7 @@ table.table-condensed tbody td.active {
 }
 
 .service-short-section.grd {
-    background: #fff;
+    background: #f5f8fb;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -6144,22 +6156,35 @@ table.table-condensed tbody td.active {
 }
 
 .services-packages.grd .platform-feature-section {
-    background-color: rgba(95, 177, 50, 0.2);
+    /*background-color: rgba(95, 177, 50, 0.2);*/
+    background-color: #f7fbf2;
+}
+
+section.sharp-spring-features.services-packages section.platform-feature-section:last-child {
+    padding-top: 132px !important;
 }
 
 .platform-feature-section.shaper {
-    padding-top: 250px !important;
+    padding-top: 330px !important;
+}
+
+section.sharp-spring-features.services-packages section.platform-feature-section:last-child  > img {
+    margin-top: 140px !important;
 }
 
 .services-packages.grd .platform-feature-section.shaper:after {
     height: 637px;
-    top: -360px;
+    top: -315px;
     width: 100%;
     background: url(../images/pb-bg.svg) no-repeat bottom center;
     background-size: cover;
     position: absolute;
     left: 0;
     content: "";
+}
+
+.platform-content {
+    padding-right: 115px;
 }
 
 .icon-round {
@@ -6230,7 +6255,8 @@ table.table-condensed tbody td.active {
 }
 
 .book-a-demo {
-    padding-bottom: 100px;
+    padding-bottom: 130px;
+    background-color: #f5f8fb;
 }
 
 @media(min-width:992px) {
@@ -6240,8 +6266,13 @@ table.table-condensed tbody td.active {
     }
 }
 
+
+.testimonials-card .section-title.text-center {
+    margin-bottom: 94px !important;
+}
+
 .testimonials-card {
-    padding-top: 100px;
+    padding-top: 180px;
     padding-bottom: 100px;
     background: rgba(95, 177, 50, 0.2);
 }
@@ -6276,12 +6307,28 @@ table.table-condensed tbody td.active {
     color: #fff;
 }
 
+.package-card-title.grdnt p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.package-card-title.grdnt .prdts span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
 .package-card-title.grdnt h3 {
     color: #fff;
 }
 
 .package-card-white.custom-space {
     padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .prd-detail {
@@ -6289,7 +6336,26 @@ table.table-condensed tbody td.active {
 }
 
 .prd-footer {
-    padding: 0 67px 45px;
+    padding: 0 67px 58px;
+}
+.package-card-white .prd-footer {
+    margin-top: auto;
+}
+
+
+section.services-packages.pt-0.pb-0 > img.img-fluid.w-100.mt-minus-150 {
+    margin-top: 168px;
+}
+
+
+section.services-packages .row .col-12.col-lg-6 {
+    margin-bottom: 44px !important;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.package-card-white .package-card-title.grdnt {
+    margin-bottom: 0;
 }
 
 .check-list.grdntr>li {
@@ -6315,18 +6381,38 @@ table.table-condensed tbody td.active {
 }
 
 .key-focus {
-    background: rgba(95, 177, 50, 0.2);
-    padding-bottom: 190px;
+    /*background: rgba(95, 177, 50, 0.2);*/
+    background: #f7fbf2;
+    padding-bottom: 210px;
+}
+
+section.key-focus img.img-fluid {
+    margin-top: -77px;
+}
+
+section.key-focus > .container {
+    padding-top: 130px;
+}
+
+section.key-focus .section-title {
+    margin-bottom: 36px;
 }
 
 .platform-feature-section.gren {
-    background: rgba(95, 177, 50, 0.2);
+    /*background: rgba(95, 177, 50, 0.2);*/
+    background: #5fb132;
     padding-bottom: 120px;
 }
 
 .labled .col-12 {
     display: flex;
     align-items: center;
+}
+
+.key-focus .row.labled .col-12.col-lg-4:nth-child(2), 
+.key-focus .row.labled .col-12.col-lg-4:nth-child(3) {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .labled span {
@@ -6346,14 +6432,20 @@ table.table-condensed tbody td.active {
     justify-content: center;
     padding-top: 15px;
     padding-bottom: 10px;
+    border: 2px solid #e7e9e5;
 }
 
 .labled span.label-d.opt5 {
     opacity: 0.5;
+    border: 0;
 }
 
 .labled {
     margin-top: 30px;
+}
+
+.key-focus .strd {
+    padding-left: 80px;
 }
 
 .strd {
