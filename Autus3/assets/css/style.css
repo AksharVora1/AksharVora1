@@ -2889,7 +2889,7 @@ faq section styling start here
     font-size: 12px;
     height: 40px;
     margin-top: 30px;
-    width: 120px;
+    width: 220px;
 }
 
 .faq-section .card .card-body .btn-gradient2 svg {
@@ -8847,4 +8847,13 @@ color: #085155;
 }
 .video-testimonial-ashd.cvg.wlyp{
     background-image:url("../images/wlyp-bg-v-t.png");
+}
+
+.grn-color {
+    color: #5FB132
+}
+.swiper-slide-prev .col.on-slide {
+    margin-left: auto;
+    max-width: 40%;
+    flex: 0 0 40%;
 }
